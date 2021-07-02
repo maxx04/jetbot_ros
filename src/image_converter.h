@@ -48,7 +48,7 @@ public:
 	/**
 	 * Image format used for outputting ROS image messages
 	 */
-	static const imageFormat ROSOutputFormat = IMAGE_BGR8;
+	static const imageFormat ROSOutputFormat = IMAGE_GRAY8; // IMAGE_BGR8;
 
 	/**
 	 * Constructor

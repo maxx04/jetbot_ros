@@ -68,7 +68,7 @@ bool aquireFrame()
 
 	// publish the message
 	camera_pub->publish(msg);
-	ROS_INFO("published camera frame");
+//	ROS_INFO("published camera frame");
 	return true;
 }
 
